@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logowanie - Hotel Restwel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="gallery-item">
+            <img src="logo.jpg" alt="Logo Hotelu Restwel" class="hotel-logo">
+    </header>
+    
+    <main class="main-container">
+        <h1>Logowanie</h1>
+        <p>Proszę wprowadzić swoje dane, aby się zalogować:</p>
+    
+        <form action="logowanie.php" method="post">
+            <label for="username">Nazwa użytkownika:</label>
+            <input type="text" id="username" name="username" required>
+          
+            <label for="password">Hasło:</label>
+            <input type="password" id="password" name="password" required>
+          
+            <input type="submit" value="Zaloguj">
+            
+            <h2><a href="rejestracja.html">NIE MASZ KONTA???? ZAREJESTRUJ SIĘ!!!!</a></h2>
+          </form>
+          
+    </main>
+</body>
+</html>

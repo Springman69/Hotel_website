@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.8;
+    color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.2rem;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1.2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header, .footer {
+    padding: 1.2rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.gallery-item {
+    margin-right: 20px;
+}
+
+.hotel-logo {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header > div {
+    margin-left: auto;
+}
+
+.main-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.2rem;
+}
+
+th, td {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #eee;
+    text-align: left;
+}
+
+footer {
+    background-color: #eee;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin-right: 1.5rem;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer ul li a {
+    color: #444;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #777;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.gallery-item {
+    flex: 1;
+    max-width: 220px;
+}
+
+.main-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container label,
+.main-container input,
+.main-container textarea {
+    margin-bottom: 1.2rem;
+}
+
+.main-container input[type="submit"] {
+    width: 180px;
+    cursor: pointer;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-list li {
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: 15% auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.clickable {
+    color: rgb(4, 0, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.google-map { 
+    padding-bottom: 20%; 
+    position: relative; 
+}
+
+.google-map iframe { 
+    height: 100%; 
+    width: 100%; 
+    left: 0; 
+    top: 0; 
+    position: absolute; 
+}
